@@ -87,9 +87,7 @@ public class DetailActivity extends AppCompatActivity {
         textViewRealiseDate = findViewById(R.id.textViewRealiseDate);
         textViewDescriptionOverView = findViewById(R.id.textViewDescriptionOverView);
 
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle("");
-        }
+        
         Intent intent = getIntent();
         if (intent != null && intent.hasExtra("id")) {
             id = intent.getIntExtra("id", -1);

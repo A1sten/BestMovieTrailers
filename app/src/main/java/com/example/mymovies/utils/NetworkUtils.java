@@ -9,6 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.loader.content.AsyncTaskLoader;
 
+import com.example.mymovies.DetailActivity;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -128,6 +130,10 @@ public class NetworkUtils {
             throw new RuntimeException(e);
         }
         return result;
+    }
+
+    public static boolean isNetworkAvailable(DetailActivity detailActivity) {
+        return false;
     }
 
     public static class JSONLoader extends AsyncTaskLoader<JSONObject> {

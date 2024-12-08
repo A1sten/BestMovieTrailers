@@ -68,7 +68,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         return super.onOptionsItemSelected(item);
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
@@ -88,10 +87,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         loaderManager = LoaderManager.getInstance(this);
-
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle("");
-        }
 
         mainViewModel = new ViewModelProvider(this).get(MainViewModel.class);
 

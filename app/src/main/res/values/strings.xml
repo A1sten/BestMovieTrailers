@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Movies</string>
+    <string name="app_name">Лучшие фильмы</string>
     <string name="big_poster_of_movie">Большой постер к фильму</string>
     <string name="poster_of_movie">Постер к фильму</string>
     <string name="most_popularity">Самые популярные</string>
@@ -16,4 +16,12 @@
     <string name="top">Рейтинг:</string>
     <string name="release_date">Дата выхода:</string>
     <string name="label_description">Описание:</string>
+    <string name="no_connect_internet">Нет подключения к интернету</string>
+    <string name="date_of_realise">Тут будет дата релиза</string>
+    <string name="text_of_rating">Тут будет рейтинг</string>
+    <string name="text_of_description">Тут будет описание</string>
+    <string name="label_text_trailer">Трейлер:</string>
+    <string name="text_original_name">Тут будет оригинальное название</string>
+    <string name="name">Тут будет название фильма</string>
+    <string name="warning_not_failed">warrning_not_failed\n</string>
 </resources>
